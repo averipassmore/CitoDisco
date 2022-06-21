@@ -3,8 +3,15 @@ html {
   font-weight: 600;
   background-color: #E7E8DF;
   color: #1A1A1A;
+  /* background: linear-gradient(#000, #000) no-repeat center/2px 100%; */
 }
 
+* {
+  /* border: 1px solid red; */
+}
+
+
+/* Nav bar styling */
 .Nav-bar {
   display: flex;
   flex-direction: row;
@@ -13,10 +20,63 @@ html {
   align-items: center;
   width: 100%;
   font-size: 2.2vmin;
+  position: relative;
+  left: -.8vmin;
 }
 
+
+/* Landing Page styling */
 .Landing-page {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 90vmin;
 }
+
+.Landing-page h1 {
+  position: relative;
+  top: 4vmin;
+}
+
+.Landing-page img {
+  position: relative;
+  top: -0vmin;
+}
+
+.Landing-page h2 {
+  position: relative;
+  top: -20vmin;
+}
+
+.Landing-page button {
+  position: absolute;
+  left: 10vmin;
+  top: 10vmin;
+  text-align: center;
+  border-radius: 50%;
+  width: 20vmin;
+  height: 20vmin;
+  font-family: Geneva;
+  font-weight: bold;
+  animation: pulse 6s ease infinite;
+  color: white;
+  background-color: #B53025;
+  border-color: white;
+  border-style: double;
+  border-width: 1vmin;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
