@@ -5,7 +5,7 @@ import logo from '../images/citodiscologo.png';
 
 const LandingPage = () => {
   const navigate = useNavigate();
-  const handleClick = () => navigate('/contact');
+  const handleContact = () => navigate('/contact');
   
   return (
     <div>
@@ -15,7 +15,7 @@ const LandingPage = () => {
         <img src={logo} alt="Cito Disco Logo"></img>
         <h2>"I learn fast"</h2>
         <h2>Enter the world of languages and culture</h2>
-        <div onClick={handleClick}><button>Book your free consultation!</button></div>
+        <div onClick={handleContact}><button>Book your free consultation!</button></div>
       </div>
     </div>
   )

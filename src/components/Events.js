@@ -1,13 +1,13 @@
 import React from "react";
 import NavBar from "./NavBar";
 
-const Contact = () => {
+const Events = () => {
   return (
     <div>
       <NavBar />
-      Contact
+      Events
     </div>
   )
 }
 
-export default Contact;
+export default Events;

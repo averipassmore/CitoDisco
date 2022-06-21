@@ -8,6 +8,7 @@ html {
 
 * {
   /* border: 1px solid red; */
+  cursor: default;
 }
 
 
@@ -21,7 +22,10 @@ html {
   width: 100%;
   font-size: 2.2vmin;
   position: relative;
-  left: -.8vmin;
+}
+
+.Nav-text {
+  cursor: pointer;
 }
 
 
@@ -63,9 +67,10 @@ html {
   animation: pulse 6s ease infinite;
   color: white;
   background-color: #B53025;
-  border-color: white;
+  border-color: #E7E8DF;
   border-style: double;
   border-width: 1vmin;
+  cursor: pointer;
 }
 
 @keyframes pulse {
