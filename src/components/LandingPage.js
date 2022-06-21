@@ -6,6 +6,7 @@ import logo from '../images/citodiscologo.png';
 const LandingPage = () => {
   const navigate = useNavigate();
   const handleClick = () => navigate('/contact');
+  
   return (
     <div>
       <NavBar />
