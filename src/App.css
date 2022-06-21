@@ -28,6 +28,16 @@ html {
   cursor: pointer;
 }
 
+.Email-logo {
+  /* cursor: pointer; */
+  /* border: 1px solid red; */
+  /* background-color: transparent; */
+}
+
+.Nav-bar svg {
+  cursor: pointer;
+}
+
 
 /* Landing Page styling */
 .Landing-page {
