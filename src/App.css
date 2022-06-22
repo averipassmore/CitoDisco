@@ -196,7 +196,7 @@ html {
   display: flex;
   width: 40%;
   height: 30vmin;
-  border: 1vmin double #9fd49d;
+  border: .5vmin solid #E7E8DF;
   background-color: transparent;
   color: #1A1A1A;
   border-radius: 2vmin;
