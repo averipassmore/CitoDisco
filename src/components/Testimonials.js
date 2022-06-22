@@ -1,4 +1,5 @@
 import React from "react";
+import Supporting from "./Supporting";
 
 const Testimonials = () => {
   return (
@@ -24,6 +25,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
+      <Supporting/>
     </div>
   )
 }

@@ -1,8 +1,9 @@
 html {
   font-family: Geneva;
   font-weight: 600;
-  background-color: #E7E8DF;
+  /* background-color: #E7E8DF; */
   color: #1A1A1A;
+  background-image: linear-gradient(#E7E8DF, #C3EAF8, #9fd49d);
   /* background: linear-gradient(#000, #000) no-repeat center/2px 100%; */
 }
 
@@ -17,7 +18,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border-bottom: 1px solid black;
+  border-bottom: .4vmin solid #1A1A1A;
   align-items: center;
   width: 100%;
   font-size: 2.2vmin;
@@ -154,7 +155,7 @@ html {
 .Bio img {
   width: 20vmin;
   height: 20vmin;
-  border: 1vmin double #B53025;
+  border: 1vmin none #C3EAF8;
   border-radius: 50%;
 }
 
@@ -195,8 +196,8 @@ html {
   display: flex;
   width: 40%;
   height: 30vmin;
-  border: 1vmin double #E7E8DF;
-  background-color: #9FD49D;
+  border: 1vmin double #9fd49d;
+  background-color: transparent;
   color: #1A1A1A;
   border-radius: 2vmin;
   margin-top: 2.5vmin;
@@ -208,7 +209,7 @@ html {
   float: left;
   width: 15vmin;
   height: 12vmin;
-  border: 1vmin double #9FD49D;
+  border: 1vmin none #9fd49d;
   border-radius: 50%;
   position: relative;
   top: 5vmin;
@@ -219,5 +220,56 @@ html {
   padding: 1vmin;
   font-size: 2.2vmin;
   word-spacing: 1vmin;
+}
+
+
+/* Supporting component styles */
+.Supporting {
+  display: flex;
+  flex-direction: column;
+}
+
+.Supporting h1 {
+  align-self: center;
+}
+
+.Supporting-content-1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.Supporting-content-1 p {
+  position: relative;
+  right: 10vmin;
+}
+
+.Supporting-content-2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.Supporting-content-2 p {
+  position: relative;
+  left: 10vmin;
+}
+
+.Supporting img {
+  width: 50%;
+  height: 40vmin;
+  padding-left: 10vmin;
+  padding-right: 10vmin;
+}
+
+.Supporting p {
+  width: 50%;
+  font-size: 2.5vmin;
+  word-spacing: 1vmin;
+  line-height: 3.5vmin;
 }
 
