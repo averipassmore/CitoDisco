@@ -34,14 +34,6 @@ html {
   transform: scale(1.2);
 }
 
-.Email-logo {
-  transition: all 1s ease-in-out;
-}
-
-.Email-logo:hover{
-  transform: scale(1.2);
-}
-
 .Nav-bar svg {
   cursor: pointer;
 }
@@ -183,5 +175,49 @@ html {
 /* Testimonials Styling */
 .Testimonials {
   position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.Testimonials h1 {
+  align-self: center;
+}
+
+.Testimonials-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.Testimonial {
+  display: flex;
+  width: 40%;
+  height: 30vmin;
+  border: 1vmin double #E7E8DF;
+  background-color: #9FD49D;
+  color: #1A1A1A;
+  border-radius: 2vmin;
+  margin-top: 2.5vmin;
+  margin-bottom: 2.5vmin;
+  overflow: scroll;
+}
+
+.Testimonial img {
+  float: left;
+  width: 15vmin;
+  height: 12vmin;
+  border: 1vmin double #9FD49D;
+  border-radius: 50%;
+  position: relative;
+  top: 5vmin;
+  margin-left: 1vmin;
+}
+
+.Testimonial p {
+  padding: 1vmin;
+  font-size: 2.2vmin;
+  word-spacing: 1vmin;
 }
 
