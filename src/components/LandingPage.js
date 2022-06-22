@@ -14,9 +14,11 @@ const LandingPage = () => {
       <div className="Landing-page">
         <h1>Cito Disco</h1>
         <img src={logo} alt="Cito Disco Logo"></img>
-        <h2>"I learn fast"</h2>
-        <h2>Enter the world of languages and culture!</h2>
-        <div onClick={handleContact}><button>Book your free consultation!</button></div>
+        <div className="Landing-page-text">
+          <h2>"I learn fast"</h2>
+          <h2>Enter the world of languages and culture!</h2>
+        </div>
+        <div onClick={handleContact} className="Button-wrapper"><button>Book your free consultation!</button></div>
       </div>
       <About/>
     </div>

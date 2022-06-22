@@ -53,7 +53,7 @@ html {
   align-items: center;
   position: relative;
   width: 100%;
-  height: 90vmin;
+  height: fit-content;
 }
 
 .Landing-page h1 {
@@ -63,18 +63,31 @@ html {
 
 .Landing-page img {
   position: relative;
-  top: -0vmin;
+  width: 70%;
+  height: 100%;
+  /* object-fit: cover; */
+  margin-bottom: -18vmin;
 }
 
 .Landing-page h2 {
   position: relative;
-  top: -20vmin;
+  font-size: 3.5vmin;
+}
+
+.Landing-page-text {
+  text-align: center;
+  position: relative;
+  height: 20vmin;
+}
+
+.Button-wrapper {
+  width: 80%;
+  position: absolute;
+  top: 10%;
 }
 
 .Landing-page button {
-  position: absolute;
-  left: 20vmin;
-  top: 10vmin;
+  float: left;
   text-align: center;
   border-radius: 50%;
   width: 20vmin;
@@ -88,6 +101,7 @@ html {
   border-style: double;
   border-width: 1vmin;
   cursor: pointer;
+  font-size: 2vmin;
 }
 
 @keyframes pulse {
@@ -124,5 +138,9 @@ html {
   font-size: 2.5vmin;
   width: 75%;
   text-align: center;
+}
+
+.About h1 {
+
 }
 
