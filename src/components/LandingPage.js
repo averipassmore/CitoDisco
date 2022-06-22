@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from 'react-router-dom';
 import NavBar from "./NavBar";
 import logo from '../images/citodiscologo.png';
+import About from "./About";
 
 const LandingPage = () => {
   const navigate = useNavigate();
@@ -17,6 +18,7 @@ const LandingPage = () => {
         <h2>Enter the world of languages and culture!</h2>
         <div onClick={handleContact}><button>Book your free consultation!</button></div>
       </div>
+      <About/>
     </div>
   )
 }

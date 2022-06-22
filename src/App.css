@@ -102,3 +102,27 @@ html {
   }
 }
 
+
+/* Footer Styling */
+.About {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.About img {
+  width: 75%;
+  height: 40vmin;
+  border-radius: 2vmin;
+  object-fit: none;
+  /* border-style: double;
+  border-color: #B53025;
+  border-width: 1vmin; */
+}
+
+.About p {
+  font-size: 2.5vmin;
+  width: 75%;
+  text-align: center;
+}
+
