@@ -27,6 +27,7 @@ html {
 .Nav-text {
   cursor: pointer;
   transition: all 1s ease-in-out;
+  width: 8.5vmin;
 }
 
 .Nav-text:hover {
@@ -117,7 +118,7 @@ html {
 }
 
 
-/* Footer Styling */
+/* About Styling */
 .About {
   display: flex;
   flex-direction: column;
@@ -129,9 +130,6 @@ html {
   height: 40vmin;
   border-radius: 2vmin;
   object-fit: none;
-  /* border-style: double;
-  border-color: #B53025;
-  border-width: 1vmin; */
 }
 
 .About p {
@@ -140,7 +138,13 @@ html {
   text-align: center;
 }
 
-.About h1 {
 
+/* Meet the team styling */
+.Meet-the-team h1 {
+  align-self: center;
 }
 
+.Meet-the-team {
+  display: flex;
+  flex-direction: column;
+}
