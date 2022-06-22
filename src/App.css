@@ -26,12 +26,19 @@ html {
 
 .Nav-text {
   cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.Nav-text:hover {
+  transform: scale(1.2);
 }
 
 .Email-logo {
-  /* cursor: pointer; */
-  /* border: 1px solid red; */
-  /* background-color: transparent; */
+  transition: all 1s ease-in-out;
+}
+
+.Email-logo:hover{
+  transform: scale(1.2);
 }
 
 .Nav-bar svg {
