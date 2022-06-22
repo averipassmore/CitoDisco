@@ -129,6 +129,8 @@ html {
   font-size: 2.5vmin;
   width: 75%;
   text-align: center;
+  line-height: 3vmin;
+  word-spacing: 1vmin;
 }
 
 
@@ -163,6 +165,8 @@ html {
   width: 75%;
   font-size: 2.5vmin;
   text-align: center;
+  line-height: 3vmin;
+  word-spacing: 1vmin;
 }
 
 .Non-owners {
@@ -193,7 +197,7 @@ html {
 }
 
 .Testimonial {
-  display: flex;
+  /* display: flex; */
   width: 40%;
   height: 30vmin;
   border: .5vmin solid #E7E8DF;
@@ -208,17 +212,22 @@ html {
 .Testimonial img {
   float: left;
   width: 15vmin;
-  height: 12vmin;
+  height: 15vmin;
   border: 1vmin none #9fd49d;
   border-radius: 50%;
   position: relative;
-  top: 5vmin;
-  margin-left: 1vmin;
+  margin-top: 2vmin;
+  margin-right: 2vmin;
+  margin-left: 2vmin;
 }
 
 .Testimonial p {
-  padding: 1vmin;
+  /* padding: 1vmin; */
   font-size: 2.2vmin;
+  margin-left: 2vmin;
+  margin-right: 2vmin;
+  /* text-align: center; */
+  line-height: 3vmin;
   word-spacing: 1vmin;
 }
 
@@ -268,8 +277,8 @@ html {
 
 .Supporting-text-wrapper p {
   font-size: 2.5vmin;
-  word-spacing: 1vmin;
   line-height: 3.5vmin;
+  word-spacing: 1vmin;
   text-align: center;
   padding-left: 2vmin;
   padding-right: 2vmin;
