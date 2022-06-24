@@ -23,7 +23,10 @@ html {
   align-items: center;
   width: 100%;
   font-size: 2.2vmin;
-  position: relative;
+  position: fixed;
+  z-index: 1;
+  /* background-color: #E7E8DF; */
+  background-image: linear-gradient(to bottom right, #E7E8DF, #C3EAF8, #9fd49d);
 }
 
 .Nav-text {
@@ -49,6 +52,7 @@ html {
   position: relative;
   width: 100%;
   height: fit-content;
+  top: 5vmin;
 }
 
 .Landing-page h1 {
