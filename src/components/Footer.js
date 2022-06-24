@@ -1,6 +1,10 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+  const navigate = useNavigate();
+  const handleContact = () => navigate('/contact');
+
   return (
     <div>
       <div className="Footer">
@@ -14,8 +18,8 @@ const Footer = () => {
           </div>
           <div className="Footer-top-middle">
             <h2>Contact</h2>
-            <p>Book a Consultation</p>
-            <p>Email Us</p>
+            <p onClick={handleContact}>Book a Consultation</p>
+            <a href="mailto:laura@citodisco.com" id="Email"><p id="Email">Email Us</p></a>
           </div>
           <div className="Footer-top-right">
             <h2>Follow Us</h2>

@@ -340,6 +340,10 @@ html {
   width: 33%;
 }
 
+.Footer-top-right svg {
+  cursor: pointer;
+}
+
 .Svg-wrapper {
   display: flex;
   justify-content: space-evenly;
@@ -352,6 +356,26 @@ html {
   /* border: solid 1px red; */
 }
 
+#Email {
+  text-decoration: none!important;
+  color: #1A1A1A;
+}
+
+.Footer-top p{
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  /* width: fit-content; */
+}
+
+.Footer-top p:hover {
+  transform: scale(1.2);
+}
+
+
+.Footer-top svg:hover {
+  transform: scale(1.2);
+}
+
 .Footer-top-right {
   display: flex;
   flex-direction: column;
@@ -360,8 +384,10 @@ html {
   /* border: solid 1px red; */
 }
 
-.Footer svg {
+.Footer-top svg {
   width: 7vmin;
   height: 7vmin;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
 }
 
