@@ -1,11 +1,79 @@
-import React from "react";
+import React, { useRef } from "react";
+// import { useNavigate } from "react-router-dom";
+import emailjs from 'emailjs-com';
 import NavBar from "./NavBar";
+import Footer from "./Footer";
+
 
 const Contact = () => {
+  const form = useRef();
+  // let navigate = useNavigate();
+
+  const sendEmail= async (e) => {
+    e.preventDefault();
+    emailjs.sendForm(process.env.REACT_APP_EMAIL_JS_SERVICE_KEY, process.env.REACT_APP_EMAIL_JS_TEMPLATE_KEY, form.current, process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY)
+      .then((result) => {
+          console.log(form.current);
+          const name = document.getElementById('name');
+          const email = document.getElementById('email');
+          const message = document.getElementById('message');
+          name.value = "";
+          email.value = "";
+          message.value = "";
+          alert('Your request was successfully submitted');
+      }, (error) => {
+          console.log(error.text);
+          alert("Your request failed... Please try again", error)
+          return;
+      });
+  }
+
   return (
-    <div>
+    <div className="Contact-wrapper">
       <NavBar />
-      Contact
+      <div className="Contact">
+        <h1>Contact Us</h1>
+        <form className="Contact-form" ref={form} onSubmit={sendEmail}>
+          <div className="Contact-form-basic-info">
+            <label htmlFor="user_first_name"></label>
+            <input type="text" name="user_first_name" placeholder="First name" id="first-name"/>
+
+            <label htmlFor="user_last_name"></label>
+            <input type="text" name="user_last_name" placeholder="Last name" id="last-name"/>
+
+            <label htmlFor="user_email"></label>
+            <input type="text" name="user_email" placeholder="example@email.com" id="email"/>
+
+            <label htmlFor="user_phone_number"></label>
+            <input type="text" name="user_phone_number" placeholder="(123)456-7890" id="phone-number"/>
+          </div>
+          <h2>Reason For Contacting Us</h2>
+          <div className="Contact-form-options">
+            <input type="radio" name="user_reason"></input>
+            <label htmlFor="lesson">Language Lessons</label>
+            <input type="radio" name="user_reason"></input>
+            <label htmlFor="events">Events Info</label>
+            <input type="radio" name="user_reason"></input>
+            <label htmlFor="other">Other</label>
+          </div>
+          <h2>How may we contact you?</h2>
+          <div className="Contact-form-options">
+            <input type="radio" name="user_method_of_contact"></input>
+            <label for="email">Email</label>
+            <input type="radio" name="user_method_of_contact"></input>
+            <label for="text">Text</label>
+            <input type="radio" name="user_method_of_contact"></input>
+            <label for="phone">Phone Call</label>
+          </div>
+
+          <h2>Comments</h2>
+          <textarea name="user_comments" placeholder="Please include any additional information that may be helpful. Thanks!" id="comments"></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <div className="Contact-footer-wrapper">
+        <Footer/>
+      </div>
     </div>
   )
 }
