@@ -8,24 +8,28 @@ import Footer from "./Footer";
 const Contact = () => {
   const form = useRef();
   // let navigate = useNavigate();
-
-  const sendEmail= async (e) => {
+  const sendEmail= (e) => {
     e.preventDefault();
+    if(!window.confirm("Please confirm request")) return;
     emailjs.sendForm(process.env.REACT_APP_EMAIL_JS_SERVICE_KEY, process.env.REACT_APP_EMAIL_JS_TEMPLATE_KEY, form.current, process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY)
       .then((result) => {
-          console.log(form.current);
-          const name = document.getElementById('name');
-          const email = document.getElementById('email');
-          const message = document.getElementById('message');
-          name.value = "";
-          email.value = "";
-          message.value = "";
-          alert('Your request was successfully submitted');
+        console.log(result);
+        const firstName = document.getElementById('first-name');
+        const lastName = document.getElementById('last-name');
+        const email = document.getElementById('email');
+        const phone = document.getElementById('phone-number');
+        const message = document.getElementById('comments');
+        firstName.value = "";
+        lastName.value = "";
+        email.value = "";
+        phone.value = "";
+        message.value = "";
+        alert('Your request was successfully submitted');
       }, (error) => {
           console.log(error.text);
           alert("Your request failed... Please try again", error)
           return;
-      });
+      }); 
   }
 
   return (
