@@ -531,3 +531,48 @@ select:-webkit-autofill:focus {
   position: sticky;
   padding-top: 10vmin;
 } */
+
+
+/* Events Styling */
+.Events {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 5vmin;
+  align-items: center;
+  height: fit-content;
+  /* height: 100%; */
+  min-height: 84vh;
+}
+
+.Events-content {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  width: 90%;
+  height: fit-content;
+}
+
+.Event {
+  display: flex;
+  flex-direction: column;
+  height: 50vmin;
+  position: relative;
+}
+
+.Event-top {
+  display: flex;
+  flex-direction: row;
+  height: 30vmin
+}
+
+.Event-top img {
+  width: 50%; 
+}
+
+.Event-info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid blue;
+}
