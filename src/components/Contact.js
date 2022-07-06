@@ -53,20 +53,20 @@ const Contact = () => {
           </div>
           <h2>Reason For Contacting Us</h2>
           <div className="Contact-form-options">
-            <input type="radio" name="user_reason"></input>
+            <input type="radio" name="user_reason" value="Lessons"></input>
             <label htmlFor="lesson">Language Lessons</label>
-            <input type="radio" name="user_reason"></input>
+            <input type="radio" name="user_reason" value="Events"></input>
             <label htmlFor="events">Events Info</label>
-            <input type="radio" name="user_reason"></input>
+            <input type="radio" name="user_reason" value="other"></input>
             <label htmlFor="other">Other</label>
           </div>
           <h2>How may we contact you?</h2>
           <div className="Contact-form-options">
-            <input type="radio" name="user_method_of_contact"></input>
+            <input type="radio" name="user_method_of_contact" value="email"></input>
             <label for="email">Email</label>
-            <input type="radio" name="user_method_of_contact"></input>
+            <input type="radio" name="user_method_of_contact" value="Text"></input>
             <label for="text">Text</label>
-            <input type="radio" name="user_method_of_contact"></input>
+            <input type="radio" name="user_method_of_contact" value="Phone"></input>
             <label for="phone">Phone Call</label>
           </div>
 

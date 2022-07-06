@@ -543,6 +543,7 @@ select:-webkit-autofill:focus {
   height: fit-content;
   /* height: 100%; */
   min-height: 84vh;
+  padding-bottom: 5vmin;
 }
 
 .Events-content {
