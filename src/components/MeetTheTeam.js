@@ -8,16 +8,35 @@ const MeetTheTeam = () => {
         <h1>Meet The Team</h1>
         <div className="Bio">
           <img src="https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" alt="Laura"></img>
-          <p>Curabitur vel lacus non tellus ullamcorper varius in lobortis magna. Cras maximus vitae nibh id bibendum. Donec vehicula at libero et rutrum. Donec gravida sem tellus, sed condimentum velit ultricies vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et vestibulum arcu. Phasellus eu pretium arcu. Duis ut ex a justo sagittis pretium sit amet ac leo. Maecenas sit amet justo sed massa consequat malesuada quis eu eros. Maecenas laoreet lorem vitae tincidunt cursus. Curabitur id neque auctor elit ornare auctor at in odio. Quisque vel varius enim, non iaculis urna. Phasellus quis metus ut enim tincidunt dapibus. Sed egestas sem cursus urna ultrices, a dignissim dolor ultricies.</p>
+          <p>Laura is the founder and CEO of Cito Disco. She graduated Magna Cum Laude in
+            Bachelor of Science in Cultural Heritage from University of Pisa. As an educator,
+            meeting the needs of the clientele is her main goal. Laura taught Latin, Italian and
+            French at Founders Classical Academy of Las Vegas for four years, and Latin and
+            Italian in College of Southern Nevada for another four years. During these years, Laura
+            constantly explored new teaching methods for instruction of world languages. Most of
+            Laura’s clients become very close friends and stay in touch. Laura enjoys traveling,
+            visiting museums, art, and begins every single day with cappuccino!
+          </p>
         </div>
         <div className="Non-owners">
           <div className="Bio">
             <img src="https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" alt="Analisa"></img>
-            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et vestibulum arcu. Phasellus eu pretium arcu. Duis ut ex a justo sagittis pretium sit amet ac leo. Maecenas sit amet justo sed massa consequat malesuada quis eu eros. Maecenas laoreet lorem vitae tincidunt cursus. Curabitur id neque auctor elit ornare auctor at in odio. Quisque vel varius enim, non iaculis urna. Phasellus quis metus ut enim tincidunt dapibus. Sed egestas sem cursus urna ultrices, a dignissim dolor ultricies.</p>
+            <p>Ruth is the education specialist. She has a Master Degree in Education, major in
+              English Language Acquisition and Development from Sierra Nevada University. She
+              has taught in schools while living in many countries, but Las Vegas is home to her. Ruth
+              teaches middle school, enjoys singing, dancing, speaking in different languages,
+              traveling, and she brings these into her teaching practice.
+            </p>
           </div>
           <div className="Bio">
             <img src="https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" alt="Ruth"></img>
-            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et vestibulum arcu. Phasellus eu pretium arcu. Duis ut ex a justo sagittis pretium sit amet ac leo. Maecenas sit amet justo sed massa consequat malesuada quis eu eros. Maecenas laoreet lorem vitae tincidunt cursus. Curabitur id neque auctor elit ornare auctor at in odio. Quisque vel varius enim, non iaculis urna. Phasellus quis metus ut enim tincidunt dapibus. Sed egestas sem cursus urna ultrices, a dignissim dolor ultricies.</p>
+            <p>Annalisa is the video and audio expert who resides in Milano, Italy. She has a degree
+              in Public Relations from the University of Milan IULM. You will be listening to her
+              pleasant voice as you immerse into the Italian language. She works and lives in Milan
+              and enjoys hiking, nature, and ski touring. Annalisa will be sharing all her adventures in
+              the duration of the course through videos live from Italy. Like most Italians, she is
+              passionate about food and savor different flavors.
+            </p>
           </div>
         </div>
       </div>
