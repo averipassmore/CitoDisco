@@ -397,11 +397,12 @@ html {
   position: relative;
   display: flex;
   flex-direction: column;
-  top: 5vmin;
+  top: 8vmin;
   align-items: center;
   height: 100vmin;
   /* height: 100%; */
   min-height: 84vh;
+  padding-bottom: 5vmin;
 }
 
 .Contact h1 {
@@ -584,7 +585,7 @@ select:-webkit-autofill:focus {
   position: relative;
   display: flex;
   flex-direction: column;
-  top: 5vmin;
+  top: 8vmin;
   align-items: center;
   height: fit-content + 5vmin;
   /* height: 100%; */
