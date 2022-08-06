@@ -157,6 +157,7 @@ html {
   flex-direction: column;
   align-items: center;
   padding-top: 2vmin;
+  width: 100%;
 }
 
 .Bio img {
@@ -179,6 +180,7 @@ html {
   flex-direction: row;
   position: relative;
   padding-top: 5vmin;
+  width: 100%;
 }
 
 
@@ -251,7 +253,6 @@ html {
   display: flex;
   flex-direction: row;
   width: 100%;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -264,7 +265,6 @@ html {
   display: flex;
   flex-direction: row;
   width: 100%;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -273,11 +273,18 @@ html {
   left: 10vmin;
 }
 
-.Supporting img {
+.Supporting-image-wrapper {
+  display: flex;
   width: 50%;
   height: 40vmin;
   padding-left: 10vmin;
   padding-right: 10vmin;
+}
+
+
+.Supporting-image-wrapper img {
+  object-fit: fill;
+  width: 100%;
 }
 
 .Supporting-text-wrapper p {
@@ -550,7 +557,6 @@ select:-webkit-autofill:focus {
 .Events-content {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   width: 90%;
   height: fit-content;
 }
@@ -576,9 +582,18 @@ select:-webkit-autofill:focus {
   display: flex;
   flex-direction: column;
   width: 50%;
-  border: 1px solid blue;
 }
 
+.Event-info-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Event-info-content-wrapper svg{
+  height: 7vmin;
+  width: 10vmin;
+}
 
 /* Courses stying */
 .Courses {

@@ -1,5 +1,8 @@
 import React from "react";
 import Testimonials from "./Testimonials";
+import laura from '../images/laura.jpg'
+import ruth from '../images/ruth.jpg';
+import annalisa from '../images/Annalisa.jpg';
 
 const MeetTheTeam = () => {
   return (
@@ -7,7 +10,7 @@ const MeetTheTeam = () => {
       <div className="Meet-the-team">
         <h1>Meet The Team</h1>
         <div className="Bio">
-          <img src="https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" alt="Laura"></img>
+          <img src={laura} alt="Laura"></img>
           <p>Laura is the founder and CEO of Cito Disco. She graduated Magna Cum Laude in
             Bachelor of Science in Cultural Heritage from University of Pisa. As an educator,
             meeting the needs of the clientele is her main goal. Laura taught Latin, Italian and
@@ -20,7 +23,7 @@ const MeetTheTeam = () => {
         </div>
         <div className="Non-owners">
           <div className="Bio">
-            <img src="https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" alt="Analisa"></img>
+            <img src={ruth} alt="Ruth"></img>
             <p>Ruth is the education specialist. She has a Master Degree in Education, major in
               English Language Acquisition and Development from Sierra Nevada University. She
               has taught in schools while living in many countries, but Las Vegas is home to her. Ruth
@@ -29,7 +32,7 @@ const MeetTheTeam = () => {
             </p>
           </div>
           <div className="Bio">
-            <img src="https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" alt="Ruth"></img>
+            <img src={annalisa} alt="Analisa"></img>
             <p>Annalisa is the video and audio expert who resides in Milano, Italy. She has a degree
               in Public Relations from the University of Milan IULM. You will be listening to her
               pleasant voice as you immerse into the Italian language. She works and lives in Milan
