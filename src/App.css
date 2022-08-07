@@ -627,8 +627,8 @@ select:-webkit-autofill:focus {
   float: left;
   text-align: center;
   border-radius: 50%;
-  width: 20vmin;
-  height: 20vmin;
+  width: 18vmin;
+  height: 18vmin;
   font-family: Geneva;
   font-weight: bold;
   animation: pulse 6s ease infinite;
@@ -642,9 +642,11 @@ select:-webkit-autofill:focus {
 }
 
 .Courses-button-wrapper {
-  width: 90%;
+  /* width: 90%; */
   position: absolute;
-  top: 5%;
+  top: 5vmin;
+  left: 2vmin;
+  /* border: 1px solid red; */
 }
 
 /* .Courses-offered {
