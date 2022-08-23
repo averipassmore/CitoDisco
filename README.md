@@ -1,4 +1,8 @@
-A professional business website for Cito Disco LLC. Created by Averi Passmore
+A professional business website for Cito Disco LLC. Created by Averi Passmore.
+
+Powered by Node.js, React.js, Email.js, Sanity Studio (Content Management System), and Netlify.
+
+Please report any bugs or questions to me! averinpassmore@gmail.com.
 
 To access the content management system: https://citodisco.sanity.studio/
 
