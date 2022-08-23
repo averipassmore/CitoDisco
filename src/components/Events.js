@@ -38,7 +38,7 @@ const Events = () => {
       <div className="Events">
         <h1>Upcoming Events</h1>
         <div className="Events-content">
-          {eventsData && eventsData.filter(event => currentDate <= new Date(event.endDate)).map((event, index) => (
+          {eventsData === null ? (<h2>coming soon</h2>) : (eventsData.filter(event => currentDate <= new Date(event.endDate)).map((event, index) => (
           <div className="Event" key={event.slug}>
             <h3>{event.title}</h3>
             <div className="Event-top">
@@ -61,13 +61,13 @@ const Events = () => {
             <div className="Event-bottom">
               <h2>{event.description}</h2>
             </div>
-          </div>
+          </div>)
           ))}
         </div>
 
         <h1>Past Events</h1>
         <div className="Events-content">
-          {eventsData && eventsData.filter(event => currentDate >= new Date(event.endDate)).map((event, index) => (
+          {!eventsData ? <h2>coming soon</h2> : eventsData.filter(event => currentDate >= new Date(event.endDate)).map((event, index) => (
           <div className="Event" key={event.slug}>
             <h3>{event.title}</h3>
             <div className="Event-top">

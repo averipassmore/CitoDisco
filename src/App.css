@@ -1,10 +1,14 @@
 html {
-  font-family: Geneva;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 600;
   /* background-color: #E7E8DF; */
   color: #1A1A1A;
   background-image: linear-gradient(#E7E8DF, #C3EAF8, #9fd49d);
   /* background: linear-gradient(#000, #000) no-repeat center/2px 100%; */
+}
+
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 * {
@@ -58,6 +62,7 @@ html {
 .Landing-page h1 {
   position: relative;
   top: 4vmin;
+
 }
 
 .Landing-page img {
@@ -121,6 +126,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 3vmin;
 }
 
 .About img {
@@ -189,6 +195,7 @@ html {
   position: relative;
   display: flex;
   flex-direction: column;
+  padding-top: 3vmin;
 }
 
 .Testimonials h1 {
@@ -243,6 +250,8 @@ html {
 .Supporting {
   display: flex;
   flex-direction: column;
+  padding-bottom: 5vmin;
+  padding-top: 5vmin;
 }
 
 .Supporting h1 {
@@ -433,6 +442,7 @@ html {
   width: 100vmin;
   align-items: center;
   height: 80vmin;
+  padding-bottom: 5vmin;
 }
 
 .Contact textarea:focus {outline: none}
@@ -498,7 +508,7 @@ html {
 .Contact input[type=submit] {
   position: relative;
   width: 20vmin;
-  top: 3vmin;
+  top: 5vmin;
   border-radius: 1vmin;
   cursor: pointer;
   font-size: 2vmin;
@@ -534,11 +544,6 @@ select:-webkit-autofill:focus {
   display: flex;
   flex-direction: column;
 }
-
-/* .Contact-footer-wrapper {
-  position: sticky;
-  padding-top: 10vmin;
-} */
 
 
 /* Events Styling */
