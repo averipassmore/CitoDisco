@@ -44,38 +44,38 @@ const Contact = () => {
         <form className="Contact-form" ref={form} onSubmit={sendEmail}>
           <div className="Contact-form-basic-info">
             <label htmlFor="user_first_name"></label>
-            <input type="text" name="user_first_name" placeholder="First name" id="first-name" required/>
+            <input type="text" name="user_first_name" placeholder="First name" id="first-name" required style={{cursor:"pointer"}}/>
 
             <label htmlFor="user_last_name"></label>
-            <input type="text" name="user_last_name" placeholder="Last name" id="last-name"/>
+            <input type="text" name="user_last_name" placeholder="Last name" id="last-name" style={{cursor:"pointer"}}/>
 
             <label htmlFor="user_email"></label>
-            <input type="text" name="user_email" placeholder="example@email.com" id="email" required/>
+            <input type="text" name="user_email" placeholder="example@email.com" id="email" required style={{cursor:"pointer"}}/>
 
             <label htmlFor="user_phone_number"></label>
-            <input type="text" name="user_phone_number" placeholder="(123)456-7890" id="phone-number" required/>
+            <input type="text" name="user_phone_number" placeholder="(123)456-7890" id="phone-number" required style={{cursor:"pointer"}}/>
           </div>
           <h2>Reason For Contacting Us</h2>
           <div className="Contact-form-options">
-            <input type="radio" name="user_reason" value="Lessons" required></input>
+            <input type="radio" name="user_reason" value="Lessons" required style={{cursor:"pointer"}}></input>
             <label htmlFor="lesson">Language Lessons</label>
-            <input type="radio" name="user_reason" value="Events"></input>
+            <input type="radio" name="user_reason" value="Events" style={{cursor:"pointer"}}></input>
             <label htmlFor="events">Events Info</label>
-            <input type="radio" name="user_reason" value="other"></input>
+            <input type="radio" name="user_reason" value="other" style={{cursor:"pointer"}}></input>
             <label htmlFor="other">Other</label>
           </div>
           <h2>How may we contact you?</h2>
           <div className="Contact-form-options">
-            <input type="radio" name="user_method_of_contact" value="email" required></input>
+            <input type="radio" name="user_method_of_contact" value="email" required style={{cursor:"pointer"}}></input>
             <label for="email">Email</label>
-            <input type="radio" name="user_method_of_contact" value="Text"></input>
+            <input type="radio" name="user_method_of_contact" value="Text" style={{cursor:"pointer"}}></input>
             <label for="text">Text</label>
-            <input type="radio" name="user_method_of_contact" value="Phone"></input>
+            <input type="radio" name="user_method_of_contact" value="Phone" style={{cursor:"pointer"}}></input>
             <label for="phone">Phone Call</label>
           </div>
 
           <h2>Comments</h2>
-          <textarea name="user_comments" placeholder="Please include any additional information that may be helpful. Thanks!" id="comments"></textarea>
+          <textarea name="user_comments" placeholder="Please include any additional information that may be helpful. Thanks!" id="comments" style={{cursor:"pointer"}}></textarea>
           <input type="submit" value="Submit" />
         </form>
       </div>

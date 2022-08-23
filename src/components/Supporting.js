@@ -11,15 +11,15 @@ const Supporting = () => {
       <div className="Supporting">
         <h1>Cito Disco Outreach</h1>
         <div className="Supporting-content-1">
-          <a href="https://robertodelanese.com/" className="Supporting-image-wrapper"><img src={delanese} alt="Delanese Method Cover" /></a>
+          <a href="https://robertodelanese.com/" className="Supporting-image-wrapper"><img src={delanese} alt="Delanese Method Cover" style={{cursor:"pointer"}}/></a>
           <div className="Supporting-text-wrapper"><p>The Delanese Method</p></div>
         </div>
         <div className="Supporting-content-2">
           <div className="Supporting-text-wrapper"><p>Libreria Pino</p></div>
-          <a href="https://www.libreriapino.com/" className="Supporting-image-wrapper"><img src={liberaria} alt="Libereraria Pino Cover"></img></a>
+          <a href="https://www.libreriapino.com/" className="Supporting-image-wrapper"><img src={liberaria} alt="Libereraria Pino Cover" style={{cursor:"pointer"}}></img></a>
         </div>
         <div className="Supporting-content-1">
-          <a href="https://jycfamilyimporters.com/" className="Supporting-image-wrapper"><img src={vineyard} alt="Delanese Method Cover"></img></a>
+          <a href="https://jycfamilyimporters.com/" className="Supporting-image-wrapper"><img src={vineyard} alt="Delanese Method Cover" style={{cursor:"pointer"}}></img></a>
           <div className="Supporting-text-wrapper"><p>JYC Family Importers</p></div>
         </div>
       </div>
