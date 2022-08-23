@@ -12,7 +12,7 @@ const Courses = () => {
       <NavBar />
       <div className="Courses">
         <div className="Courses-info">
-          <h1>Overview</h1>
+          <h1 id='Courses-title'>Overview</h1>
           <p>Our courses will expose you to world languages in different
             interactive ways, such as reading, listening, activities, conversation,
             games, quizzes, etc. You will be able to respond and converse in
