@@ -311,6 +311,10 @@ html {
   width: 50%;
 }
 
+.Supporting img {
+  border-radius: 2vmin;
+}
+
 
 /* Footer Styling */
 .Footer {
@@ -560,6 +564,13 @@ select:-webkit-autofill:focus {
   padding-bottom: 5vmin;
 }
 
+.Events h1 {
+  border-bottom: .5vmin #1A1A1A solid;
+  border-radius: 1vmin;
+  height: 8vmin;
+  font-size: 6vmin;
+}
+
 .Events-content {
   display: flex;
   flex-direction: column;
@@ -580,7 +591,7 @@ select:-webkit-autofill:focus {
 }
 
 .Event h3 {
-  font-size: 4vmin;
+  font-size: 3vmin;
   text-align: center;
   /* border-bottom: 1px solid #9fd49d; */
 }
@@ -595,23 +606,17 @@ select:-webkit-autofill:focus {
   width: 50%;
   object-fit: cover;
   max-height: 50vmin;
+
+    border-radius: 2vmin;
 }
 
 .Event-info {
   display: flex;
   flex-direction: column;
   width: 50%;
-  /* border: 1px solid purple; */
   justify-content: space-evenly;
-  /* position: relative; */
   align-items: flex-start;
-  /* align-items: flex-start; */
 }
-
-/* .Event-info svg {
-  max-width: 100% !important;
-  max-height: 100% !important;
-} */
 
 .Event-info h2 {
   font-size: 2.5vmin;
@@ -643,7 +648,6 @@ select:-webkit-autofill:focus {
   font-size: 2vmin;
   width: 100%;
   justify-content: center;
-  /* border: 1px solid green; */
 }
 
 #Event-rsvp {
@@ -673,7 +677,6 @@ select:-webkit-autofill:focus {
 .Courses-info {
   display: flex;
   flex-direction: column;
-  /* border: 1px solid red; */
   width: 65%;
   text-align: center;
   justify-content: space-evenly;
@@ -703,13 +706,7 @@ select:-webkit-autofill:focus {
 }
 
 .Courses-button-wrapper {
-  /* width: 90%; */
   position: absolute;
   top: 5vmin;
   left: 2vmin;
-  /* border: 1px solid red; */
 }
-
-/* .Courses-offered {
-
-} */

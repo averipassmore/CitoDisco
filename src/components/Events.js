@@ -40,7 +40,6 @@ const Events = () => {
         <div className="Events-content">
           {eventsData === null ? (<h2>coming soon</h2>) : (eventsData.filter(event => currentDate <= new Date(event.endDate)).map((event, index) => (
           <div className="Event" key={event.slug.current}>
-            {console.log(event)}
             <h3>{event.title}</h3>
             <div className="Event-top">
               <img src={event.mainImage.asset.url} alt="Event Flyer"></img>
