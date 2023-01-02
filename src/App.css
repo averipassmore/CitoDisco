@@ -194,8 +194,9 @@ html {
   text-align: center;
   line-height: 1.5em;
   word-spacing: 1vmin;
-  padding-left: 3vmin;
-  padding-right: 3vmin;
+  /* padding-left: 3vmin;
+  padding-right: 3vmin; */
+  max-width: 85vw;
 }
 
 .Non-owners {
@@ -209,8 +210,11 @@ html {
 }
 
 .Non-owners div {
-  width: 45%;
-  min-width: 500px;
+  width: 40%;
+  min-width: 350px;
+  max-width: 90vw;
+  padding-right: 1vw;
+  padding-left: 1vw;
 }
 
 .Non-owners p {
