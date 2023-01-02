@@ -74,7 +74,6 @@ html {
   position: relative;
   width: 70%;
   height: 100%;
-  /* object-fit: cover; */
   margin-bottom: -18vmin;
 }
 
@@ -94,7 +93,6 @@ html {
   font-family: URW Chancery L, cursive;
 }
 .Button-wrapper {
-  /* width: 80%; */
   position: absolute;
   left: 5vw;
   top: 10%;
@@ -106,7 +104,6 @@ html {
   border-radius: 50%;
   width: 20vmin;
   height: 20vmin;
-  font-family: Geneva;
   font-weight: bold;
   animation: pulse 6s ease infinite;
   color: white;
@@ -115,7 +112,7 @@ html {
   border-style: double;
   border-width: 1vmin;
   cursor: pointer;
-  font-size: 2vmin;
+  font-size: 2.5vmin;
 }
 
 @keyframes pulse {
@@ -147,7 +144,7 @@ html {
 }
 
 .About p {
-  font-size: 2.5vmin;
+  font-size: 3.5vmin;
   width: 75%;
   text-align: center;
   word-spacing: 1vmin;
@@ -173,7 +170,7 @@ html {
   flex-direction: column;
   align-items: center;
   padding-top: 2vmin;
-  width: 100%;
+  min-width: 10vw;
 }
 
 .Bio img {
@@ -184,23 +181,21 @@ html {
 }
 
 .Annalisa {
-  /* object-fit: contain; */
   position: relative;
-  /* min-height: 20vmin; */
   object-fit: cover;
 }
 
 .Annalisa img {
   width: 10vmin;
-  /* position: absolute; */
   margin-top: -10px;
 }
 .Bio p {
-  width: 75%;
-  font-size: 2.5vmin;
+  font-size: 3.3vmin;
   text-align: center;
   line-height: 1.5em;
   word-spacing: 1vmin;
+  padding-left: 3vmin;
+  padding-right: 3vmin;
 }
 
 .Non-owners {
@@ -209,6 +204,17 @@ html {
   position: relative;
   padding-top: 5vmin;
   width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Non-owners div {
+  width: 45%;
+  min-width: 500px;
+}
+
+.Non-owners p {
+  font-size: 3vmin;
 }
 
 
@@ -259,7 +265,7 @@ html {
 
 .Testimonial p {
   /* padding: 1vmin; */
-  font-size: 2.2vmin;
+  font-size: 2.5vmin;
   margin-left: 2vmin;
   margin-right: 2vmin;
   /* text-align: center; */
@@ -347,7 +353,7 @@ html {
 }
 
 .Footer h2 {
-  font-size: 3vmin;
+  font-size: 3.3vmin;
 }
 
 .Footer p {
@@ -489,7 +495,7 @@ html {
       repeating-linear-gradient(transparent, transparent 30px, #1a1a1a 30px, #1a1a1a 31px, #1a1a1a 31px);
   line-height: 31px;
   font-family: Geneva;
-  font-size: 2vmin;
+  font-size: 2.3vmin;
 }
 
 .Contact-form-basic-info {
@@ -511,6 +517,7 @@ html {
 .Contact-form-options label{
   width: 20%;
   text-align: center;
+  font-size: 2.3vmin;
 }
 
 .Contact input[type=text]:focus {outline: none}
@@ -519,7 +526,7 @@ html {
   position: relative;
   width: 88vmin;
   padding: .8vmin;
-  font-size: 2vmin;
+  font-size: 2.3vmin;
   background-color: transparent;
   border: #1A1A1A 1px solid;
   -ms-box-sizing:content-box;
@@ -539,7 +546,7 @@ html {
   top: 5vmin;
   border-radius: 1vmin;
   cursor: pointer;
-  font-size: 2vmin;
+  font-size: 2.3vmin;
   font-weight: bold;
   color: #1A1A1A;
   background-color: transparent;
@@ -713,7 +720,7 @@ select:-webkit-autofill:focus {
 }
 
 .Course-Card h1 {
-  color: #B53025
+  color: #B53025;
 }
 
 .Course-Card h2 {
