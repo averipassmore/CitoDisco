@@ -1,5 +1,5 @@
 import React from "react";
-import Supporting from "./Supporting";
+import Footer from "./Footer";
 
 const Testimonials = () => {
   return (
@@ -25,7 +25,8 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <Supporting/>
+      {/* <Supporting/> */}
+      <Footer/>
     </div>
   )
 }

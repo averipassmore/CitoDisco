@@ -16,7 +16,7 @@ const LandingPage = () => {
         <img src={logo} alt="Cito Disco Logo"></img>
         <div className="Landing-page-text">
           <h2>"I learn fast"</h2>
-          <h2>Enter the world of languages and culture!</h2>
+          <h2 className="red-cursive">Enter the world of languages and culture!</h2>
         </div>
         <div onClick={handleContact} className="Button-wrapper"><button>Book your free consultation!</button></div>
       </div>

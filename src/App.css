@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 html {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: "Open Sans";
   font-weight: 600;
   /* background-color: #E7E8DF; */
   color: #1A1A1A;
@@ -9,7 +11,7 @@ html {
 
 * {
   /* font-family: Georgia, 'Times New Roman', Times, serif; */
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Open Sans";
 }
 
 * {
@@ -27,9 +29,10 @@ html {
   border-bottom: .3vmin solid #1A1A1A;
   align-items: center;
   width: 100%;
-  font-size: 2.2vmin;
+  font-size: 2.5vmin;
   position: fixed;
   z-index: 1;
+  font-weight: bolder;
   /* background-color: #E7E8DF; */
   background-image: linear-gradient(to bottom right, #E7E8DF, #C3EAF8, #9fd49d);
 }
@@ -38,6 +41,7 @@ html {
   cursor: pointer;
   transition: all 1s ease-in-out;
   width: 8.5vmin;
+  font-weight: bold;
 }
 
 .Nav-text:hover {
@@ -85,9 +89,14 @@ html {
   height: 20vmin;
 }
 
+.red-cursive{
+  color: #B53025;
+  font-family: URW Chancery L, cursive;
+}
 .Button-wrapper {
-  width: 80%;
+  /* width: 80%; */
   position: absolute;
+  left: 5vw;
   top: 10%;
 }
 
@@ -132,17 +141,17 @@ html {
 
 .About img {
   width: 75%;
-  height: 40vmin;
+  height: 80vh;
   border-radius: 2vmin;
-  object-fit: none;
+  object-fit: fill;
 }
 
 .About p {
   font-size: 2.5vmin;
   width: 75%;
   text-align: center;
-  line-height: 3vmin;
   word-spacing: 1vmin;
+  line-height: 1.5em;
 }
 
 
@@ -174,11 +183,23 @@ html {
   border-radius: 50%;
 }
 
+.Annalisa {
+  /* object-fit: contain; */
+  position: relative;
+  /* min-height: 20vmin; */
+  object-fit: cover;
+}
+
+.Annalisa img {
+  width: 10vmin;
+  /* position: absolute; */
+  margin-top: -10px;
+}
 .Bio p {
   width: 75%;
   font-size: 2.5vmin;
   text-align: center;
-  line-height: 3vmin;
+  line-height: 1.5em;
   word-spacing: 1vmin;
 }
 
@@ -341,7 +362,7 @@ html {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .Footer-bottom {
@@ -374,7 +395,9 @@ html {
 .Footer-top-middle {
   text-align: center;
   width: 33%;
-  /* border: solid 1px red; */
+}
+.Footer-top-middle p{
+  text-decoration: underline;
 }
 
 #Email {
@@ -662,17 +685,102 @@ select:-webkit-autofill:focus {
 
 
 /* Courses stying */
+.Courses-List {
+  position: relative;
+  display: flex;
+  top: 8vmin;
+  height: fit-content + 5vmin;
+  /* height: 100%; */
+  min-height: 100vh;
+  /* border: 1px solid red; */
+  padding-bottom: 5vmin;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Course-Card {
+  min-width: 250px;
+  min-height: 250px;
+  width: 40vw;
+  height: 40vh;
+  border: 2px solid #B53025;
+  border-radius: 2vmin;
+  /* margin-top: 5vh; */
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 5vh;
+}
+
+.Course-Card h1 {
+  color: #B53025
+}
+
+.Course-Card h2 {
+  color: #B53025;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Course-Card h2:hover {
+  color: #6b0a05;
+}
+
+.Course-Card h3 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.course-info {
+  margin-bottom: 4vh;
+  width: 80%;
+  border: 2.5px solid white;
+  border-radius: 2vmin;
+}
+
+.course-info h2 {
+  color: #B53025;
+  text-align: center;
+}
+
+.course-info h3 {
+  padding-left: 3vmin;
+  padding-right: 3vmin;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+.course-info h4 {
+  padding-left: 3vmin;
+  padding-right: 3vmin;
+  line-height: 1.5em;
+}
+
+.course-info h5 {
+  padding-left: 3vmin;
+  padding-right: 3vmin;
+  color: #B53025;
+  font-size: 16px;
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+}
+
+.course-info h5:hover{
+  color: #6b0a05;
+}
+
 .Courses {
   position: relative;
   display: flex;
   flex-direction: column;
   top: 8vmin;
   align-items: center;
-  height: fit-content + 5vmin;
+  height: fit-content;
   /* height: 100%; */
   min-height: 100vh;
   /* border: 1px solid red; */
-  padding-bottom: 5vmin;
+  padding-bottom: 7vmin;
 }
 
 .Courses-info {

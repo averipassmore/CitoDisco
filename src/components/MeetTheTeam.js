@@ -2,7 +2,7 @@ import React from "react";
 import Testimonials from "./Testimonials";
 import laura from '../images/laura.jpg'
 import ruth from '../images/ruth.jpg';
-import annalisa from '../images/Annalisa.jpg';
+import annalisa2 from '../images/analissa2.jpg';
 
 const MeetTheTeam = () => {
   return (
@@ -10,7 +10,7 @@ const MeetTheTeam = () => {
       <div className="Meet-the-team">
         <h1>Meet The Team</h1>
         <div className="Bio">
-          <img src={laura} alt="Laura"></img>
+          <img src={laura} alt="Laura" style={{width: "30vmin", height: "30vmin"}}></img>
           <p>Laura is the founder and CEO of Cito Disco. She graduated Magna Cum Laude in
             Bachelor of Science in Cultural Heritage from University of Pisa. As an educator,
             meeting the needs of the clientele is her main goal. Laura taught Latin, Italian and
@@ -32,7 +32,7 @@ const MeetTheTeam = () => {
             </p>
           </div>
           <div className="Bio">
-            <img src={annalisa} alt="Analisa"></img>
+            <img className="Annalisa" src={annalisa2} alt="Analisa"></img>
             <p>Annalisa is the video and audio expert who resides in Milano, Italy. She has a degree
               in Public Relations from the University of Milan IULM. You will be listening to her
               pleasant voice as you immerse into the Italian language. She works and lives in Milan
