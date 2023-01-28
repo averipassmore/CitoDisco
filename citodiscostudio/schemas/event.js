@@ -38,7 +38,6 @@ export default {
       name: 'url',
       title: 'URL',
       type: 'string',
-      validation: (Rule) => Rule.required(),
     },
     {
       name: 'address',
