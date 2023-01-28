@@ -35,6 +35,11 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
+      name: 'link',
+      title: 'Link',
+      type: 'text',
+    },
+    {
       name: 'address',
       title: 'Address',
       type: 'text',
