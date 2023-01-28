@@ -2,7 +2,7 @@ import React from "react";
 import Testimonials from "./Testimonials";
 import laura from '../images/laura.jpg'
 import ruth from '../images/ruth.jpg';
-import annalisa2 from '../images/analissa2.jpg';
+import anna from '../images/anna2.jpg';
 
 const MeetTheTeam = () => {
   return (
@@ -32,7 +32,7 @@ const MeetTheTeam = () => {
             </p>
           </div>
           <div className="Bio">
-            <img className="Annalisa" src={annalisa2} alt="Analisa"></img>
+            <img className="Annalisa" src={anna} alt="Analisa"></img>
             <p>Annalisa is the video and audio expert who resides in Milano, Italy. She has a degree
               in Public Relations from the University of Milan IULM. You will be listening to her
               pleasant voice as you immerse into the Italian language. She works and lives in Milan

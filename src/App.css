@@ -139,7 +139,7 @@ html {
 
 .About img {
   width: 75%;
-  height: 80vh;
+  height: 50vh;
   border-radius: 2vmin;
   object-fit: fill;
 }
