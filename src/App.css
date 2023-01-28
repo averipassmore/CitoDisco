@@ -716,27 +716,29 @@ select:-webkit-autofill:focus {
 
 .Course-Card {
   min-width: 250px;
-  min-height: fit-content;
   width: 40vw;
-  height: 40vh;
-  max-height: fit-content;
+  /* height: 40vh; */
+  min-height: 20vh;
+  max-height: 40vh;
   border: 2px solid #B53025;
   border-radius: 2vmin;
   text-align: center;
-  font-size: 22px;
+  /* font-size: 4vmin; */
   margin-bottom: 5vh;
   padding-bottom: 2vh;
+  font-size: 2.2vmin;
 }
 
 .Course-Card h1 {
   color: #B53025;
+  /* font-size: 5vmin; */
 }
 
 .Course-Card h2 {
   color: #B53025;
   text-decoration: underline;
   cursor: pointer;
-  font-size: 18px;
+  /* font-size: 4vmin; */
 }
 
 .Course-Card h2:hover {
@@ -745,6 +747,10 @@ select:-webkit-autofill:focus {
 
 .Course-Card h3 {
   text-decoration: underline;
+  /* font-size: 4vmin; */
+}
+.Course-Card h4 {
+  /* font-size: 3vmin; */
 }
 
 .course-info {
