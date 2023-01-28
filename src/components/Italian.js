@@ -12,7 +12,7 @@ const Italian = () => {
         <h1>Italian</h1>
         <div className="course-info">
           <h2>ITALIAN FOR ADULTS</h2>
-          <h3>ONLINE(VIA ZOOM) OR IN PERSON (LAS VEGAS AREA ONLY)</h3>
+          <h3>ONLINE (VIA ZOOM) OR IN PERSON (LAS VEGAS AREA ONLY)</h3>
           <h4>These Italian private lessons are customized according to the needs and
             interests of each student. In a fun, relaxed, and informal setting, Laura will be
             glad to accompany the student in their journey into the Italian language
@@ -26,18 +26,18 @@ const Italian = () => {
 
         <div className="course-info">
           <h2>ITALIAN FOR CHILDREN AND YOUTH</h2>
-          <h3>ONLINE(VIA ZOOM) OR IN PERSON (LAS VEGAS AREA ONLY)</h3>
+          <h3>ONLINE (VIA ZOOM) OR IN PERSON (LAS VEGAS AREA ONLY)</h3>
           <h4>Stories, stories, and stories! These are the 3 key words for our Italian lessons
             focused on children and young minds. In a fun, engaging, and immersive way,
             the student will acquire the language without stress, and will turn their
-            UFFA(Ugh) into a EVVIVA (Yuppie) mood.
+            UFFA (Ugh) into a EVVIVA (Yuppie) mood.
           </h4>
           <h5 onClick={() => navigate("/contact")}>Book a free consultation to chat with Laura about this tutoring opportunity!</h5>
         </div>
 
         <div className="course-info">
           <h2>ITALIAN FOR SMALL GROUPS</h2>
-          <h3>ONLINE(VIA ZOOM) OR IN PERSON (LAS VEGAS AREA ONLY)</h3>
+          <h3>ONLINE (VIA ZOOM) OR IN PERSON (LAS VEGAS AREA ONLY)</h3>
           <h4>Are you and a group of friends planning to travel to Italy? Are you and your
             family members eager to be engaged in a common interest? Are you and a
             group of acquaintances enthusiastic to win the Best Italian Speaker contest?
