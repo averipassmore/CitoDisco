@@ -34,10 +34,11 @@ export default {
       type: 'text',
       validation: (Rule) => Rule.required(),
     },
-    {
-      name: 'link',
-      title: 'Link',
-      type: 'text',
+     {
+      name: 'Url',
+      title: 'URL',
+      type: 'url',
+      validation: (Rule) => Rule.required(),
     },
     {
       name: 'address',
