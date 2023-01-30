@@ -721,18 +721,31 @@ select:-webkit-autofill:focus {
 }
 
 .Course-Card {
-  min-width: 250px;
+  display: flex;
+  /* min-width: 250px; */
   width: 40vw;
+  min-width: 200px;
   /* height: 40vh; */
   min-height: 20vh;
   max-height: 40vh;
-  border: 2px solid #B53025;
-  border-radius: 2vmin;
+  /* border: 2.1px solid #B53025; */
+  border-radius: 2.1vmin;
   text-align: center;
   /* font-size: 4vmin; */
   margin-bottom: 5vh;
-  padding-bottom: 2vh;
+  /* padding-bottom: 2vh; */
   font-size: 2.2vmin;
+
+}
+
+.Course-Card img {
+  object-fit: fill;
+  /* width: 41vw; */
+  min-width: 200px;
+  /* min-height: 20vh; */
+  /* max-height: 40vh; */
+  border-radius: 1.75vmin;
+  cursor: pointer;
 }
 
 .Course-Card h1 {
