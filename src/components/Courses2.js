@@ -13,14 +13,12 @@ const Courses2 = () => {
       </div>
       <div className="Courses-List">
         <div className="Course-Card" onClick={() => navigate('/courses/italian')}>
-          <div>
           <h1>Italian</h1>
           <h3>Italian For Adults</h3>
           <h4>Online or in person!</h4>
           <h3>Italian for Children</h3>
           <h4>Online or in person!</h4>
           <h2>See more!</h2>
-          </div>
         </div>
         <div className="Course-Card">
           <h1>Latin</h1>
